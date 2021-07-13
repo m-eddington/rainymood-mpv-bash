@@ -6,9 +6,9 @@
     VOL=75
 
 # Change the links to .mp3 or .m4a if that suits you better
-    LINK1="http://rainymood.com/audio1112/0.ogg"
-    LINK2="http://rainymood.com/audio1112/1.ogg"
-    LINK3="http://rainymood.com/audio1112/2.ogg"
+    LINK1="https://rainymood.com/audio1112/0.ogg"
+    LINK2="https://rainymood.com/audio1112/1.ogg"
+    LINK3="https://rainymood.com/audio1112/2.ogg"
 
 #---------------------------------------------------------#
 mpv --no-terminal --gapless-audio=yes --volume="$VOL" "$LINK1" "$LINK2" "$LINK3"
