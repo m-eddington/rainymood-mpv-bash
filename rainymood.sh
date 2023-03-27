@@ -11,7 +11,5 @@
     LINK3="https://rainymood.com/audio1112/2.ogg"
 
 #---------------------------------------------------------#
-kill_mpv=$( ps -U $USER | grep mpv | head -c 7)
 mpv --no-terminal --gapless-audio=yes --no-ytdl --volume="$VOL" "$LINK1" "$LINK2" "$LINK3"
-killall $kill_mpv
 exit 0
